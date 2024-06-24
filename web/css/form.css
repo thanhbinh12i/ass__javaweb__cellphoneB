@@ -1,0 +1,94 @@
+body{
+    font-family: Montserrat-Regular,sans-serif;
+}
+.form-body{
+    max-width: 700px;
+}
+
+.form{
+    padding-top: 40px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.form img{
+    width: 120px;
+    height: 150px;
+}
+.form-title{
+    font-family: Montserrat-ExtraBold;
+    font-weight: 800;
+    font-size: 30px;
+    color: black;
+    line-height: 1.2;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding-bottom: 25px;
+}
+.form-input{
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.input{
+    font-family: Poppins-Medium;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+    display: block;
+    width: 100%;
+    background-color: #e6e6e6;
+    height: 50px;
+    padding: 0 20px 0 68px;
+    outline: none;
+    border: none;
+}
+.input-icon{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    position: absolute;
+    bottom: 33%;
+    left: 3%;
+}
+
+.form-btn .button{
+    background: #e0052b;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 20px auto 0;
+    padding: 11px 0;
+    text-align: center;
+    width: 100%;
+    transition: all 0.5s;
+}
+.form-btn .button:hover{
+    background: white;
+    color: black;
+    border: 1px solid red;
+}
+.form-question{
+    margin: 20px 0;
+}
+.form-question p{
+    color: #777;
+    font-size: 14px;
+    margin-right: 5px;
+}
+.form-question a{
+    color: #d70018;
+    font-size: 14px;
+    font-weight: 600;
+}
+.red{
+    text-align: left;
+    padding-left: 20px;
+    color: red;
+    padding-bottom: 5px;
+}
